@@ -24,7 +24,7 @@ function budgetCalculator(gori,phone,Laptop) {
    var total= budgetCalculator(8,8,7);
    console.log(total) //show the total ouput
 
-   
+
  //------------HotelCost----------------// 
 function hotelCost(days){
 if (days<= 10){
@@ -56,7 +56,7 @@ return leastDays;
 
 var friends = ['abdullah hquak', 'jamal bhuiya','akbar chowdhury ','asif raza chowdhury']
 var max = friends[0] 
-function megafriends(friends){
+function megaFriend(friends){
    
     for(var i =1; i<friends.length; i++){ 
         
@@ -68,6 +68,6 @@ function megafriends(friends){
     }
     return element;
 }
-var biggerName = megafriends(friends)
+var biggerName = megaFriend(friends)
 console.log(biggerName);
 
